@@ -1,0 +1,9 @@
+<!-- Api page template -->
+<div id="container-api">
+    <h1>API REQUEST HERE:</h1>
+    <div class="cycle" ng-repeat="team in teams track by $index">
+        <img src="{{team.iconUrl}}" alt="team">
+        <small>{{team.name}}</small>
+    </div>
+    <a href="#!home">Return to Home page</a>
+</div>

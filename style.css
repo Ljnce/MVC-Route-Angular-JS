@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.container-header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* All */
+a {
+    text-decoration: none;
+    color: #000000;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+/* Main */
+
+/* Index */
+.navigate {
+    text-align: center;
+    margin-top:50px;
+}
+
+/* Home page */
+#container-home-page {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Api page */
+#container-api {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cycle {
+    display: flex;
+    flex-direction: column;
+}
+
+.cycle img {
+    height: 80px;
+}
+
+/* Another page */
+#container-another-page {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Footer */
+.container-footer {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}

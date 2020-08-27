@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Angular single page js</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header>
+            <div class="container-header">
+                <h1>HEADER</h1>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <div ng-app="mainApp">
+            <div class="navigate">
+                <a href="#!api"> API |</a>
+                <a href="#!another"> ANOTHER </a>
+            </div>
+            <div ng-view></div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-footer">
+                <h1>FOOTER</h1>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Scritp Angular route -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+        <script src= "js/main.js" charset="utf-8"></script>
+    </body>
+</html>
