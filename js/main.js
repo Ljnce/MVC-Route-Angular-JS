@@ -35,7 +35,7 @@ mainApp.controller('homeController', function($scope) {
 });
 
 // ********
-// **Api**
+// **Api***
 // ********
 
 mainApp.controller('apiController', function($scope, $http) { //Inlude $scope (my model) and $http (my ajax call)
